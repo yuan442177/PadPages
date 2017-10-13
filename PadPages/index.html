@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PadPages</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/weui.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+</head>
+<body>
+<!--头部banner-->
+<div class="bar"></div>
+<!--主显示区域-->
+<div class="main">
+    <!--Left导航-->
+    <div id="left" class="left">
+        <div class="scroll-son">
+        <dt class="list_dt">
+        <p>实验室1</p>
+        </dt>
+        <dd class="list_dd">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <p><img src="img/水分计JG_Z_01_10003.jpg"></p>
+                    <p>JG_Z_01_10003</p>
+                    <p>水分计萨达啊啊啊啊啊啊啊啊啊啊</p>
+                </li>
+                <li class="list-group-item">
+                    <p><img src="img/耐折度测定仪.png"></p>
+                    <p>JG_Z_02_20057</p>
+                    <p>耐折度测定仪</p>
+                </li>
+                <li class="list-group-item">
+                    <p><img src="img/PH计JG_Z_01_10115.jpg"></p>
+                    <p>JG_Z_01_10115</p>
+                    <p>PH计</p>
+                </li>
+                <li class="list-group-item">
+                    <p><img src="img/电子天平.jpg"></p>
+                    <p>id</p>
+                    <p>电子天平</p>
+                </li>
+                <li class="list-group-item">
+                    <p><img src="img/padpagesimg.jpg"></p>
+                    <p>id</p>
+                    <p>name</p>
+                </li>
+            </ul>
+        </dd>
+        <dt class="list_dt" >
+            <p>实验室2</p>
+        </dt>
+        <dd class="list_dd">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="www.baidu.com">
+                    <p><img src="img/padpagesimg.jpg"></p>
+                    <p>id</p>
+                    <p>name</p>
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a href="www.baidu.com">
+                    <p><img src="img/padpagesimg.jpg"></p>
+                    <p>id</p>
+                    <p>name</p>
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a href="www.baidu.com">
+                    <p><img src="img/padpagesimg.jpg"></p>
+                    <p>id</p>
+                    <p>name</p>
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a href="www.baidu.com">
+                    <p><img src="img/padpagesimg.jpg"></p>
+                    <p>id</p>
+                    <p>name</p>
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a href="www.baidu.com">
+                    <p><img src="img/padpagesimg.jpg"></p>
+                    <p>id</p>
+                    <p>name</p>
+                </a>
+            </li>
+        </ul>
+        </dd>
+        </div>
+    </div>
+    <!--Right表格-->
+    <div class="right">
+        <div class="tools">
+            <button onclick="selectUser()" class="weui_btn weui_btn_mini weui_btn_primary">选择用户</button>
+            <input type="text" id="userName" disabled="disabled" >
+            <span style="float: right;">
+                <input type="text" placeholder="样品号">
+                <input type="text" placeholder="数据采集">
+            </span>
+        </div>
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>任务号</th>
+                <th>样品号</th>
+                <th>分析</th>
+                <th>采集点</th>
+                <th>样品时间</th>
+                <th>数据采集</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><label>1</label></td>
+                <td><label>1</label></td>
+                <td><label>2</label></td>
+                <td><label>2</label></td>
+                <td><label>3</label></td>
+                <td>
+                    <input type="text">
+                    <button class="weui_btn weui_btn_mini weui_btn_primary">开始</button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!--选择用户弹出层-->
+<div class="Mask">
+    <div class="selectUser">
+        <p id="userId1">用户1</p>
+        <p id="userId2">用户2</p>
+        <p id="userId3">用户3</p>
+        <p id="userId4">用户4</p>
+    </div>
+</div>
+<script src="js/leftNav.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

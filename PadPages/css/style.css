@@ -1,0 +1,178 @@
+@import "leftNav.css";
+
+*{
+/*    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;*/
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+.h2, h2 {
+    font-size: 30px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #E0E0E0;
+    margin: 0px;
+}
+.bar{
+    height: 30px;
+    width: 100%;
+    background-color: #000000;
+}
+/**
+left style
+ */
+.left{
+    overflow-x: hidden; overflow-y: auto;
+    width: 150px;
+    float: left;
+}
+.scroll-son{
+    overflow-x: hidden;
+    height:100%;
+    width: 170px;
+}
+.left h2{
+    text-align: center;
+}
+.left ul{
+    list-style: none;
+/*    width: 80%;*/
+}
+.left img{
+    width: 100px;
+    height: 100px;
+}
+.left p{
+    margin: 0px;
+}
+.list-group {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+.list-group-item:first-child {
+    /*第一块顶部弧度*/
+    /*border-top-left-radius: 4px;
+    border-top-right-radius: 4px;*/
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #E0E0E0;
+    border: 1px solid #ccc;
+}
+
+/**
+right style
+ */
+.right {
+   /* margin-top: 63px;*/
+    float: right;
+    margin-right: 10px;
+}
+.table-bordered {
+    border: 1px solid #ccc;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+table {
+    background-color: #ffffff;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #ccc;
+}
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ccc;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ccc;
+}
+th {
+    text-align: left;
+}
+tr th{
+    width: 200px;
+}
+td input{
+    width: 40px;
+}
+.tools{
+    margin: 5px;
+}
+#userName{
+    border: none;
+    background-color: #E0E0E0;
+    width: 100px;
+}
+.selectUser{
+    width: 15%;
+    height: auto;
+    margin:50px auto;
+    left:0;
+    right:0;
+    position: fixed;
+    background-color: #FFFFFF;
+}
+.selectUser p{
+    cursor: pointer;
+    border: 1px solid #ddd;
+    margin: 0;
+    padding: 5px 0;
+    text-align: center;
+}
+.Mask{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.5);/*一定要使用rgba表示颜色及透明度否则透明度会影响子元素*/
+    display: none;
+}
+/**
+selectUser 动画效果
+TO ..
+ */
+
+
