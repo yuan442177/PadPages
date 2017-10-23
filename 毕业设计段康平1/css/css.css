@@ -1,0 +1,197 @@
+/* CSS Document */
+body{
+
+font-size:12px;
+text-align:center;
+color:#333333;
+}
+p{
+margin:0;
+padding:0;
+}
+a{
+text-decoration:none;
+color:#333;}
+a:hover{
+text-decoration:underline;
+color:#FF0000;}
+
+.header{
+width:1100px;;
+height:55px;
+padding-top:0px;
+padding-left:10px;
+margin:0  auto;
+
+}
+.logo{
+float:left;}
+.topblock{
+float:right;
+
+width:203px;
+height:61px;
+margin-right:10px;
+
+}
+.topblock p{
+margin-top:10px;
+margin-left:10px;
+margin:0  auto;}
+.topblock img{float:left;
+margin-top:20px;
+margin-left:15px;}
+.topblock span{
+color:#3366FF;
+font-weight:bolder;}
+
+
+
+.menu_tad{background:url(../images/menu_bg1.gif) repeat-x;
+width:100%;
+height:36px;
+font-size:16px;
+}
+.menu_tad ul{list-style:none;}
+.menu_tad ul li{float:left;
+margin-left:85px;
+
+}
+.menu_tad ul li.nav_img{background:url(../images/menu_divider1.gif) no-repeat;
+width:4px;
+height:36px;}
+.menu_tad ul li a{color:#FFF;
+line-height:36px;
+font-family:ºÚÌå;
+font-weight:bolder;
+line-height:36px;}
+.menu_tad a{text-decoration:none;}
+.menu_tad a:hover{
+text-decoration:underline;
+color:#FF0000;}
+
+
+
+.top{width:1100px;
+height:300px;
+
+margin:0  auto;
+padding-top:10px;}
+.l{width:700px;
+height:300px;
+background:#006;
+float:left;}
+.f{width:300px;
+height:300px;
+background:#414141;
+float:left;}
+.f p{font-size:16px;
+color:#000;
+line-height:30px;}
+
+
+.zhong{width:1000px;
+height:1050px;
+
+
+float:none;
+margin:0  auto;
+padding-top:10px;}
+.zl{width:250px;
+height:250px;
+
+float:left;}
+.zz{width:250px;
+height:250px;
+
+float:left;}
+.zf{width:250px;
+height:250px;
+;
+float:left;}
+.zff{width:250px;
+height:250px;
+
+float:left;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#friend a{
+	text-decoration:none;
+	color:#333;
+	line-height:20px;}
+	
+#friend{
+	margin:10px 10px 10px 20px;}
+
+.footer{
+
+	text-align:center;
+	border-top:#333 solid 10px;
+	margin-top:10px;
+	width:1000px;
+	margin:0  auto;
+		
+	}
+.footer a{
+	margin:10px;
+	color:#000000;
+	}
+.news ul{padding:0px;
+margin:0px;
+list-style-type:none;
+}
+.footer p{margin-top:1px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
